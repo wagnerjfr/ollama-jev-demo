@@ -1,4 +1,5 @@
-# Ollama now supports Jev-style decision models
+# ollama-jev-demo
+Ollama now supports Jev-style decision models
 
 ## Prerequisites
 
@@ -29,4 +30,3 @@ docker exec ollama-decision ollama pull tev1:0.8b
 ```bash
 ./mvnw spring-boot:run
 ```
-# ollama-jev-demo
