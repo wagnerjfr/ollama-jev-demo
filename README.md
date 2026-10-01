@@ -28,5 +28,15 @@ docker exec ollama-decision ollama pull tev1:0.8b
 ### 3. Build and Run
 
 ```bash
+git clone https://github.com/wagnerjfr/ollama-jev-demo.git
+cd ollama-jev-demo
 ./mvnw spring-boot:run
+```
+
+Expected output:
+```
+Team: TECHNICAL (confidence 0.93)
+Frustration: FRUSTRATED
+Urgency: 1.00
+Action: Fast lane for the TECHNICAL team
 ```
